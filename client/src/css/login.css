@@ -1,0 +1,125 @@
+
+.loginPage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(203, 203, 243);
+}
+.login{
+    background-color: white;
+    border-radius: 10px;
+    width: max(9cm,23%);
+    height: 85vh;
+}
+.loginImg{
+    border: 1px solid black;
+    width: 90%;
+    height:40%  ;
+    border-radius: 10px 40% 40%;
+    background-color: rgb(35, 48, 65);
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.login form{
+   
+    width: 100%;
+    margin-top: 1cm;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.login form div{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+.login form div input{
+    height: 0.9cm;
+    outline: none;
+    border: 2px solid  rgb(35, 48, 65);
+    background-color: rgb(219, 219, 240);
+    border-radius: 20px;
+    padding-left: 0.5cm;
+    width: 84%;
+    color: black;
+    font-size: 16px;
+
+}
+.login form div button{
+    width: 90%;
+    height: 0.9cm;
+    background-color:  rgb(35, 48, 65);
+    color: white;
+    border-radius: 20px;
+    outline: none;
+    font-size: 16px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+
+}
+.login form div button:hover{
+    background-color: rgb(255, 255, 255);
+    color:  rgb(35, 48, 65);
+}
+.login .or{
+    height: 1cm;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.3cm 0;
+}
+.login .google{
+    width: 90%;
+    height: 0.9cm;
+    margin-left: 5%;
+    border-radius: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(225, 225, 225);
+}
+.dont{
+    width: 100%;
+    height: 1cm;
+    display: flex;
+    margin-top: 0.3cm;
+    justify-content: center;
+    align-content: center;
+    gap: 5px;
+}
+.dont span{
+    color:  rgb(17, 17, 78);
+}
+.dont span:hover{
+    color: rgb(14, 14, 159);
+    cursor: pointer;
+}
+.custom-toast {
+    background: #4caf50; 
+    color: white; 
+    border-radius: 8px; 
+    padding: 8px; 
+}
+.loader{
+    width: 0.5cm;
+    height: 0.5cm;
+    border: 4px solid rgb(35, 48, 65);
+    border-top: 4px solid rgb(255, 255, 255);
+    animation: spin 1s infinite;
+    border-radius: 50%;
+}

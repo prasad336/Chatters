@@ -1,0 +1,214 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    all: unset;
+    margin: 0;
+    padding: 0;
+}
+.sidebar {
+    width: max(9cm, 20%);
+
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(35, 48, 65);
+}
+
+.sideHead {
+    color: white;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    height: 1cm;
+    padding: 5px 0;
+    align-items: center;
+}
+
+.sideHead div {
+  display: flex;
+  
+    font-size: 30px;
+    align-items: center;
+
+}
+.sideHead div img{
+    width: 1cm ;
+    height: 1cm;
+   border-radius: 50%;
+    margin-right: 10px;
+}
+.sideHead div i {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.sidebar .search {
+    position: relative;
+    width: 100%;
+    display: flex;
+    gap: 4px;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.sidebar .search input {
+    width: 90%;
+    height: 0.9cm;
+    border-radius: 8px;
+    border: none;
+
+    padding-left: 4px;
+    font-size: 18px;
+}
+
+.sidebar .search button {
+    position: absolute;
+    width: 13%;
+    font-size: 25px;
+    border-radius: 15px;
+    border: none;
+    
+    right: 0.4cm;
+    background-color: white;
+    color:  rgb(35, 48, 65);
+}
+
+.sidebar .search button i{
+    font-size: 18px;
+}
+.sidebar .users {
+    border-radius: 20px 20px 0 0;
+    padding-top: 0.4cm;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.4cm;
+    gap: 0.1cm;
+    background-color: rgb(194, 191, 191);
+}
+
+.sidebar .users .user {
+    width: 90%;
+   border-bottom: 1px solid grey;
+    padding: 0.1cm 0.2cm;
+    height: auto;
+    /* box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
+    border: 1px solid black; */
+    display: flex;
+
+    gap: 0.3cm;
+}
+
+.sidebar .users .user .profile {
+
+    width: 1.35cm;
+    height: 1.35cm;
+    border-radius: 50%;
+}
+
+hr {
+    margin: 0;
+    width: 90%;
+
+}
+
+.sidebar .users .user .profile img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.sidebar .users .user .name {
+
+    height: auto;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+
+    width: 80%;
+
+}
+
+.sidebar .users .user .name h3 {
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.user .name p {
+    font-size: 16px;
+    color: gray;
+
+}
+
+.noUsersPage {
+    display: flex;
+    width: 100%;
+   
+    justify-content: center;
+    align-items: start;
+    height: 100%;
+    text-align: center;
+    
+   
+  }
+  
+  .noUsersContainer {
+   width: 90%;
+  
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+  
+  .noUsersContainer .icon {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: rgb(35, 48, 65);
+  }
+  
+  .noUsersContainer h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: rgb(35, 48, 65);
+  }
+  
+  .noUsersContainer p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .noUsersContainer button {
+    background:rgb(11, 17, 25);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .noUsersContainer button:hover {
+    background: #0f0925;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
